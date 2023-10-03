@@ -1,0 +1,27 @@
+{
+    "name": "giauphan/qr-code",
+    "description": "QR Code Generator for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phan Nhut Giau",
+            "email": "giauphan012@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers/constants.php",
+            "src/helpers/functions.php"
+        ],
+        "psr-4": {
+            "QR_Code\\": "src/QR_Code/"
+        }
+    },
+    "require": {
+        "giauphan/laravel-qr-code":"1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
