@@ -19,7 +19,7 @@
         }
     },
     "require": {
-        "giauphan/laravel-qr-code":"1.0.0"
+        "giauphan/laravel-qr-code":"*"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.5"
