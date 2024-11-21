@@ -148,7 +148,7 @@ class Vector
      * @param int         $backColor
      * @param int         $foreColor
      */
-    public static function svg ($frame, $filename = false, int $pixelPerPoint = 4, int $outerFrame = 4, bool $saveAndPrint = false, int $backColor, int $foreColor) : void
+    public static function svg ($frame, $filename = false, int $pixelPerPoint = 4, int $outerFrame = 4, bool $saveAndPrint = false,  int $backColor = 0xFFFFFF, int $foreColor = 0x000000) : void
     {
         $vect = self::vectSVG($frame, $pixelPerPoint, $outerFrame, $backColor, $foreColor);
 
